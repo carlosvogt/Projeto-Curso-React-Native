@@ -43,6 +43,7 @@ module.exports = {
         extensions: ['.jsx', '.js'],
       },
     ],
+
     'import/prefer-default-export': 'off',
     'react/state-in-constructor': 'off',
     'react/static-property-placement': 'off',
@@ -94,7 +95,7 @@ module.exports = {
         ignoreDOMComponents: true,
         ignoreRefs: false,
         allowArrowFunctions: true,
-        allowFunctions: false,
+        allowFunctions: true,
         allowBind: true,
       },
     ],

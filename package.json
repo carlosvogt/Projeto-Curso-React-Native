@@ -6,7 +6,6 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
-    "test": "jest",
     "lint": "eslint ."
 
   },
@@ -37,8 +36,8 @@
     "eslint-plugin-sonarjs": "^0.11.0",
     "jest": "^27.4.5",
     "metro-react-native-babel-preset": "^0.66.2",
-    "prettier": "2.5.1",
-    "react-test-renderer": "17.0.2"
+    "prettier": "2.5.1"
+
   },
   "jest": {
     "preset": "react-native"
